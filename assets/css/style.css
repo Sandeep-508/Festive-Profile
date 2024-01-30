@@ -313,6 +313,7 @@ button {
         align-items: center;
         justify-content: center;
         flex-direction: column;
+        transition: all 200ms linear;
     }
 
     input:checked~.sm-view {
