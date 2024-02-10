@@ -14,7 +14,7 @@
             <div class="container max-w-100">
                 <div class="nav d-flex jc-sb">
                     <div class="title d-flex align-items">
-                        <img src="./assets/images/title_img.png" alt="globe" width="98px" height="66px">
+                        <img src="./assets/images/title_img.png" alt="globe" width="98px" height="66px" id="changes">
                         <p class="heading">Events<span class="free">Free</span></p>
                     </div>
                     <input type="checkbox" id="menuicon" hidden>
@@ -33,19 +33,19 @@
                 </div>
             </div>
         </nav>
-        <div class="container d-flex">
-            <div class="row fg-1 flex mt-66">
-                <div class="col-3 d-flex align-items col-md-12">
+        <div class="container d-flex mt-66">
+            <div class="row fg-1">
+                <div class="col-4 d-flex align-items col-md-12">
                     <img src="./assets/images/first_cont_img.png" alt="concert" class="w-100 width-100">
                 </div>
 
-                <div class="col-9 flex-prop col-md-12">
-                    <div class="home_user mb-12 mt-50">
+                <div class="col-8 col-md-12">
+                    <div class="home_user mb-12">
                         <p class="home">Home > Username</p>
                     </div>
-                    <div class="name d-flex gap-60 mb-16 flex-dir">
-                        <p class="username">Jhone Doe</p>
-                        <div class="btns d-flex align-items gap-20 fd-col">
+                    <div class="name d-flex gap-10 mb-16 flex-dir">
+                        <p class="username" style="font-size: 38px;">Jhone Doe</p>
+                        <div class="btns d-flex align-items gap-20 wrap">
                             <button class="unshowed max-content">Unshow Journey of Feed</button>
                             <button class="showed max-content">Show Journey of Feed</button>
                         </div>
@@ -178,7 +178,12 @@
                 </div>
 
                 <div class="col-6 col-md-12 top-50">
-                    <img src="./assets/images/sec_cont_img.png" alt="party" class="w-h-100">
+                    <div class="relative">
+                        <img src="./assets/images/sec_cont_img.png" alt="party" class="w-h-100">
+                        <div class="pos_chang">
+                            <img src="./assets/images/play_icon.svg" alt="...">
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -254,11 +259,11 @@
                     dolor fringilla urna
                     eget aliquet.</p>
             </div>
-            <div class="box alignment pad-20 jc-sb">
+            <div class="box alignment pad-20 flex-wrap gap-10">
                 <div class="img">
                     <img src="./assets/images/box_img.svg" alt="svg">
                 </div>
-                <div class="input">
+                <div class="input text_wrap">
                     <input type="text" placeholder="Add A New Comment....">
                 </div>
                 <div class="btns">
@@ -515,10 +520,10 @@
     <section class="forth_page d-flex bg-color">
         <div class="container">
             <div class="row mt-50 mb-30">
-                <div class="col-3 col-md-12 mb">
+                <div class="col-4 col-md-12 mb">
                     <div class="heading d-flex align-items">
                         <img src="./assets/images/globe_img.png" alt="earth">
-                        <p class="event">Events<span class="free">Free</span></p>
+                        <p class="event">Events<span class="footer_free">Free</span></p>
                     </div>
                     <div class="just_text d-flex">
                         <p class="ipsum_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc efficitur
@@ -559,7 +564,7 @@
                         </svg>
                     </div>
                 </div>
-                <div class="col-9 col-md-12">
+                <div class="col-8 col-md-12">
                     <div class="row jc-fend jc-fstart">
                         <div class="col-3 flex-align col-sm-6 mb">
                             <p class="main">Home</p>
